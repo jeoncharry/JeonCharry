@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+}
+a:link{color: white;}
+a:active{color: white;}
+a:visited{color: white;}
+
+header{height: 100px;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       background-color: black; 
+       
+    }
+nav{
+    height: 100px;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+nav ul{
+       width: 1100px;
+       display: flex;
+       justify-content: space-between;  }
+nav ul li{}
+nav ul li a{
+    display: block;
+    width: 275px;
+    text-align: center;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 20px;
+    letter-spacing: -0.6px;
+}
+nav ul li a{
+    display: block;
+    width: 135px;
+    height: 35px;
+}
+nav ul li a:hover{
+    background-image: url(img/bt_bg.png);
+}
+section{height: 3660px;
+        background-color: black;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-image: url(img/cff07.png);
+    }
+.in1{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 550px;
+    padding-top: 55px;
+}
+.in2{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 550px;
+    padding-top: 50px;
+}
+.in3{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 550px;
+    padding-top: 60px;
+}
+.in4{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 550px;
+    padding-top: 60px;
+}
+.in5{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 550px;
+    padding-top: 60px;
+}
+.in6{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 550px;
+    padding-top: 60px;
+}
+.in7{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 550px;
+    padding-top: 60px;
+}
+footer{height: 100px;
+    background-color: rgb(0, 0, 0);
+    background-image: url(img/cff02.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}

@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+}
+a:link{color: white;}
+a:active{color: white;}
+a:visited{color: white;}
+
+header{height: 100px;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       background-color: black; 
+       
+    }
+nav{
+    height: 100px;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+nav ul{
+       width: 1100px;
+       display: flex;
+       justify-content: space-between;  }
+nav ul li{}
+nav ul li a{
+    display: block;
+    width: 275px;
+    text-align: center;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 20px;
+    letter-spacing: -0.6px;
+}
+nav ul li a{
+    display: block;
+    width: 135px;
+    height: 35px;
+}
+nav ul li a:hover{
+    background-image: url(img/bt_bg.png);
+}
+section{
+    height: 1933px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: black;
+    color: white;
+}
+.sim{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+}
+.circle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.we{
+    margin: 0 auto;
+    padding-top: 145px;
+    display: flex;
+    width: 950px;
+    height: 225px;
+    text-align: center;
+    font-size: 66px;
+    font-style: Bold;
+    font-family: 'Noto Sans KR', sans-serif;
+    letter-spacing: 0.5px;
+    font-weight: 800;
+    background-color: black;
+}
+
+.philosophy{
+    font-style: Bold;
+    font-family: 'Noto Sans KR', sans-serif;
+    letter-spacing: 0.6px;
+    font-weight: 600;
+    margin: 0 auto;
+    position: center;
+    text-align: center;
+    font-size: 38px;
+    background-color: black;
+}
+footer{
+    height: 100px;
+    background-image: url(img/cff02.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: rgb(0, 0, 0);
+        }
+        
